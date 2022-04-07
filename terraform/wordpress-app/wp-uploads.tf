@@ -9,7 +9,7 @@ resource "azurerm_storage_account" "uploads" {
   location                 = azurerm_resource_group.wordpress.location
   account_tier             = var.storage_account_tier
   account_replication_type = var.storage_account_replication
-  allow_blob_public_access = true # Allow public access
+  ## allow_blob_public_access = true # Allow public access
   tags                     = var.tags
 }
 

@@ -1,12 +1,12 @@
 variable "name" {
   type				= string
-  description = "Base name, i.e. prefix of azure resources"
+  description = "FBU"
 }
 
 variable "location" {
   type				= string
   description	= "Azure Region for resources. Defaults to North Europe."
-  default			= "northeurope"
+  default			= "westeurope"
 }
 
 variable "wordpress_image" {

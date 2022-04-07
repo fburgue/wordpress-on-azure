@@ -26,7 +26,7 @@ services:
       MYSQL_USER: demo
       MYSQL_PASSWORD: badidea
       MYSQL_DATABASE: wordpress
-      MYSQL_ROOT_PASSWORD: reallybadidea
+      MYSQL_ROOT_PASSWORD: yv?tt!N0T4Prod!
     volumes:
       - db_data:/var/lib/mysql
 

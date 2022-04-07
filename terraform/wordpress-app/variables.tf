@@ -59,7 +59,7 @@ variable "acr_sku" {
 variable "storage_container_name" {
   type        = string
   description = "Name of Blob Storage container to use. Defaults to 'wordpress'"
-  default     = "wordpress"
+  default     = "fbuwordpress"
 }
 
 variable "storage_account_tier" {

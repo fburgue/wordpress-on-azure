@@ -18,5 +18,5 @@ locals {
 
 module "app" {
   source = "./terraform/wordpress-app"
-  name   = "wordpress-${local.suffix}"
+  name   = "fbu-tf-wpress-${local.suffix}"
 }

@@ -28,12 +28,12 @@ variable "tags" {
 
 variable "appservice_plan_tier" {
   type    = string
-  default = "Basic"
+  default = "BASIC"
 }
 
 variable "appservice_plan_size" {
   type    = string
-  default = "B1"
+  default = "B2"
 }
 
 # Database (for testing only!)

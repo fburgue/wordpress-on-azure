@@ -87,8 +87,8 @@ resource "azurerm_mysql_server" "wordpress" {
   administrator_login          = var.mysql_admin_user
   administrator_login_password = random_password.mysql.result
 
-  sku_name   = "B_Gen5_1" # cheapest
-  storage_mb = 5120 # smallest
+  sku_name   = "B_Gen5_1" # cmdline to catch : az mysql server list-skus --location westeurope -o table
+  storage_mb = 6144 # smallest is 5120  (must be divisible by 1024)
   version    = "5.7"
 
   auto_grow_enabled                 = true

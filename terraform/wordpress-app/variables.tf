@@ -87,3 +87,12 @@ locals {
   name 					 = lower(var.name)
   name_flattened = replace(var.name, "-", "")
 }
+
+variable "environment_tag" {
+  type        = string
+  description = "Environment tag value"
+}
+variable "loc1" {
+  description = "The location for this Lab environment"
+  type        = string
+}
